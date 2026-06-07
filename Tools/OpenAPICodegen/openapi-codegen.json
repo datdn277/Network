@@ -1,0 +1,23 @@
+{
+  "generatorName": "swift5",
+  "templateDir": "Tools/OpenAPICodegen/templates/swift5-network-client",
+  "projectName": "OpenAPIClient",
+  "typeMappings": {
+    "number": "Decimal"
+  },
+  "additionalProperties": {
+    "hideGenerationTimestamp": "true",
+    "useJsonEncodable": "true",
+    "hashableModels": "true",
+    "validatable": "false",
+    "generateModelAdditionalProperties": "false"
+  },
+  "modules": [
+    {
+      "name": "CardMasterdataOpenAPI",
+      "inputDir": "references/OpenApi",
+      "outputDir": "Examples/CardMasterdataOpenAPI/OpenApi",
+      "tagStrategy": "fileName"
+    }
+  ]
+}
